@@ -1,0 +1,19 @@
+    SET, C , 20, 
+    SET, A, 0,
+    SET, B, 1,
+    PSH, A,
+    PSH, B,
+    ADD,
+    COP, A, B,
+    POP, A,
+    PRNT, A,
+    PSHI, 1,
+    PSH, C,
+    SUB,
+    JEZ, 31,
+    POP, C,
+    JMP, 8,
+    
+
+    HLT
+
